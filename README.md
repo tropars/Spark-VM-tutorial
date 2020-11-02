@@ -9,13 +9,13 @@ The main steps to obtain a working install of Spark are:
 - Installing required packages in the new install
 - Installing Spark
 
-# Installing Ubuntu Server
+## Installing Ubuntu Server
 
-## Downloading the iso
+### Downloading the iso
 
 To download Ubuntu Server, use the following link: https://ubuntu.com/download/server and choose option 3
 
-## Creating the VM
+### Creating the VM
 
 Create a new VM using the downloaded ISO. 
 - Most default parameters can be kept
@@ -25,7 +25,7 @@ Create a new VM using the downloaded ISO.
   + Disk: 10GB
 
 
-# Installing required packages in the new install
+## Installing required packages in the new install
 
 Install a graphical interface as described here: https://linuxconfig.org/how-to-install-minimal-gnome-on-ubuntu-20-04-focal-fossa-linux
 
@@ -63,7 +63,7 @@ sudo apt install firefox
 
 Also install the virtualbox guest additions for a more user friendly experience, as described here: https://linuxhint.com/install_virtualbox_guest_additions_ubuntu/
 
-# Installing Spark
+## Installing Spark
 
 From this point, you can simply follow the tutorial for a native Spark install Linux provided in the DMLSDS course: [https://tropars.github.io/downloads/lectures/LSDM/LSDM-install-spark.pdf](https://tropars.github.io/downloads/lectures/LSDM/LSDM-install-spark.pdf)
 
